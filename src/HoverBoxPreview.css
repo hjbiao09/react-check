@@ -1,0 +1,11 @@
+.hover-preview-image {
+  position: fixed;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover-preview-image.visible {
+  opacity: 1;
+}
